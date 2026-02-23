@@ -1,0 +1,9 @@
+pipeline:
+  schedule: "*/5 * * * *"
+
+  constants:
+    days_to_fetch: 3
+    batch_size: 100
+
+  data_source:
+    base_url: "https://mock-api.com/events"
